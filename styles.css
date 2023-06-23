@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto&display=swap');
+
+html, * {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  background: #18122B;
+  background: linear-gradient(90deg, #18122B 0%,#301E67 50% ,#03C988 100%);
+}
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header .logo{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 250px;
+}
+
+.social-media {
+  background: white;
+  display:block;
+  width: 75px;
+  border: 1px solid white;
+  border-radius: 0 10px 10px 0;
+  position: fixed;
+  top: 250px;
+  padding: 20px;
+}
+
+.social-media a {
+  display: block;
+  font-size: 26px;
+  padding: 20px;
+  color: black;
+}
+
+/* SOCIAL MEDIA */
+
+.fa-instagram {
+  color: #FF0060;
+}
+
+.fa-github-alt {
+  color: #27374D;
+}
+
+.fa-youtube {
+  color: #F15A59;
+}
+
+.fa-twitter {
+  color: #2F58CD;
+}
+
+/* END SOCIAL MEDIA */
+
+.menu {
+  margin-right: 250px;
+  padding: 12px;
+  margin-top: 2px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.header h1{
+  font-size: 20px;
+  padding: 12px;
+  color: white;
+}
+
+/* INICIO DA APRESENTAÇÃO */
+
+.presentation {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  width: 100%;
+  padding: 200px 0 0 250px;
+  display: flex;
+}
+
+.presentation h1 {
+  font-size: 70px;
+  padding: 0;
+}
+
+.presentation h2 {
+  font-size: 50px;
+  padding: 0;
+}
+
+.text {
+  width: 50%;
+}
+
+.text p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.text button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(90deg, #03C988 0%, #3B185F 100%);
+  color: white;
+  transition: 5s;
+}
+
+.text button:hover {
+  cursor: pointer;
+}
+
+.go {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.img {
+  width: 100%;
+}
+
+.img img{
+  width: 50%;
+  /* background: linear-gradient(100deg, #3B185F 0%, #03C988 100%);;
+  border-radius: 50%; */
+}
+
+.img a {
+  color: white;
+  text-decoration: none;
+}
+
+/* FIM DA APRESENTAÇÃO */
+
+footer {
+  bottom: 0;
+  position: fixed;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.footer {
+  background: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  width: 300px;
+  border-radius: 0 20px 0 0;
+}
